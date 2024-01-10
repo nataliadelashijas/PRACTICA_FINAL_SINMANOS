@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 
+    font-family: 'Open Sans', sans-serif;
+
     background-color: var(--light-green);
 }
 
@@ -378,6 +380,11 @@ li.dropdown {
     background-color: transparent;
 }
 
+.card > img {
+    height: 100%;
+    width: auto;
+}
+
 .card > img:hover {
     background-color: var(--light-green);
     opacity: 0.5;
@@ -393,7 +400,7 @@ li.dropdown {
 .card > div > h5 {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
-    color: var(--dark-green);
+    color: white;
     align-self: flex-start;
 }
 
@@ -403,7 +410,7 @@ li.dropdown {
     background-color: var(--dark-orange);
     border: none;
     padding: 20px;
-    width: 100%1;
+    width: 100%;
 }
 
 .card > div > a:hover {
@@ -420,7 +427,7 @@ li.dropdown {
     height: 100px;
     overflow-x: hidden;
 
-    background-color: var(--light-green);
+    background-color: var(--light-orange);
 }
   
 .track {
@@ -442,7 +449,8 @@ li.dropdown {
     gap: 50px;
     margin: 0;
 
-    color: var(--dark-green);
+    color: var(--dark-orange);
+    background-color: var(--light-orange);
 
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
@@ -450,7 +458,7 @@ li.dropdown {
 }
 
 .content > ul > li {
-    background-color: var(--secondary-blue);
+    background-color: var(--light-orange);
 }
 
 footer {
@@ -524,7 +532,7 @@ footer {
     
     #menu {
         height: 5em;
-        background-color: var(--dark-blue);
+        background-color: var(--dark-green);
     }
 
     #menu > i {
@@ -591,10 +599,6 @@ footer {
     #search {
         display: none;
     }
-    
-    .know {
-        margin-top: 500px;
-    }
 
     .row {
         flex-direction: column;
@@ -653,13 +657,9 @@ footer {
         padding: 0;
     }
     
-    .portada {
-        height: 40vh;
-    }
-
     .portada > h1 {
-        padding: 140px 0 0 25px;    
-        font-size: 5em;    
+        font-size: 2em;  
+        margin: 10px;  
     }
 
     #video {
@@ -668,10 +668,6 @@ footer {
 
     #menu > ul > li > a {
         font-size: 1.5em;
-    }
-
-    .know {
-        margin: 0;
     }
 
     .content > ul {
